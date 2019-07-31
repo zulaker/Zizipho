@@ -1,0 +1,106 @@
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.button-container {
+  padding-left: 50px;
+  position: fixed; 
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+ z-index: 3;
+}
+
+.container img {
+  width: 70%;
+  height: auto;
+  position: relative; 
+}
+
+.container .home {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:silver;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: justify;
+  flex-basis: 15%;
+}
+
+.container .about {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:silver;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  text-align: justify;
+  flex-basis: 15%;
+}
+
+.container .gallery {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: silver;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: justify;
+    flex-basis: 15%;
+  }
+.container .contact {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: silver;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: justify;
+    flex-basis: 15%;
+}
+
+a{
+  color: black;
+}
+
+
+#buttons {
+  float: none;
+  width: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 100%;
+    margin-top: 0;
+    
+  }
+
+  .button-container {
+  flex-direction: column;
+  }
+}
+
+
+
+  

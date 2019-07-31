@@ -1,0 +1,40 @@
+body {
+  background-color: grey;
+}
+  
+
+img {float: left;
+padding-right: 100px;
+bottom: 50px;
+margin-top: 45px}
+
+.clearfix {
+  overflow: auto;
+}
+
+
+h3 {text-align: inherit;
+font-size: 35px;}
+
+
+
+p {
+  font-size: 30px;
+  text-align: inherit;
+  border-radius: 30px;
+  visibility: visible;
+  padding-right: 150px;
+  position: relative;
+}
+
+a{
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .column, text {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
